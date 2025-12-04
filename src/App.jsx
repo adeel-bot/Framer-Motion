@@ -1,7 +1,7 @@
 // AnimationPlayground.jsx
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { animations } from "./utils/animations"; // ✅ import from your file
+import { AnimatePresence } from "framer-motion";
+import { animations } from "./utils/animations"; 
 
 export default function AnimationPlayground() {
   const [cards, setCards] = useState([1, 2, 3]);
